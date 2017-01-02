@@ -11,15 +11,22 @@
 
 ## Build, Serve and Run
 
-cd blur-admin
-npm install
+```sh
+$ cd blur-admin
+$ npm install
+```
 
 This will setup a working copy of BlurAdmin on your local machine
 
 ## Running local copy
-gulp serve
 
+```sh
+$ gulp serve
+```
 This script should automatically open template in your default browser.
 
 ## Run local copy in production mode:
-gulp serve:dist
+
+```sh
+$ gulp serve:dist
+```
